@@ -9,4 +9,9 @@ $('[data-toggle=offcanvas]').click(function() {
     $('#xs-menu').toggleClass('visible-xs').toggleClass('hidden-xs');
     $('#btnShow').toggle();
 });
+
+
+
+    console.log( "ready!" );
+
 });
