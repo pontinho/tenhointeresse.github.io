@@ -29,4 +29,8 @@ $('[data-toggle=offcanvas]').click(function() {
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk')); 
 
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+
 });
